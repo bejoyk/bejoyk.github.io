@@ -138,6 +138,25 @@ button[type="submit"]:hover { background: #9e1830; }
 
 .addr { margin: 0; }
 
+.listing h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0 0 8px;
+}
+.listing-kicker {
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+.listing-addr { margin: 0 0 8px; }
+.listing-price {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+.listing p { margin: 0 0 12px; }
+
 .marks {
   display: flex;
   flex-direction: column;

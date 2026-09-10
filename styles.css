@@ -155,7 +155,23 @@ button[type="submit"]:hover { background: #9e1830; }
   margin: 0 0 10px;
   font-weight: 700;
 }
+.listing-note {
+  font-weight: 400;
+  color: var(--muted);
+}
 .listing p { margin: 0 0 12px; }
+.listing + .listing {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  margin-top: 10px;
+}
+.listing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.listing-actions .btn { min-width: 0; }
 
 .marks {
   display: flex;

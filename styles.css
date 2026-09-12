@@ -219,6 +219,39 @@ footer {
 }
 footer p { margin: 0 0 8px; }
 
+.facts {
+  margin: 0 0 16px;
+  padding-left: 1.15em;
+}
+.facts li { margin: 0 0 8px; }
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 0 0 8px;
+}
+.compare {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.compare th,
+.compare td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.compare thead th {
+  background: #f4f6f8;
+  color: var(--navy);
+  font-weight: 700;
+}
+.compare tbody th {
+  font-weight: 700;
+  color: var(--navy);
+  white-space: nowrap;
+}
+
 @media (max-width: 520px) {
   body { font-size: 17px; }
   .btn { flex: 1 1 40%; }
